@@ -1,0 +1,71 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  height: 100vh;
+  grid-template-rows: auto 1fr auto;
+}
+
+header {
+  background: whitesmoke;
+  padding-top: 5rem;
+  padding-bottom: 1rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+main {
+  background: honeydew;
+	padding: 5rem;
+}
+
+h6 {
+	padding-top: 4rem;
+}
+
+.pdf-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+  justify-content: center; 
+	color: green;
+}
+
+.pdf-item {
+	min-width: 600px;
+	max-width: 600px;
+	min-height: 600px;
+	max-height: 600px;
+  padding: 2px;
+}
+
+footer {
+  background: lightslategray;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+}
+
+.member-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; 
+}
+
+.member-item {
+  width: 300px;
+  height: 200px;
+  margin: 5px;
+  padding: 5px;
+  background-color: green;
+  color: white;
+  text-align: center;
+}
+
+
