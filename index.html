@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>GitAtom - SSG for Blogs</title>
+	<meta name="description" content="GitAtom Project Tracker">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
+			<ul class="navbar-nav">
+				<li class="nav-item active"><a class="nav-link" href="#">GitAtom<span class="sr-only">(current)</span></a></li>
+				<li class="nav-item"><a class="nav-link" href="#sponsor">Sponsor</a></li>
+				<li class="nav-item"><a class="nav-link" href="#research">Research & Design</a></li>
+				<li class="nav-item"><a class="nav-link" href="#progress">Progress</a></li>
+				<li class="nav-item"><a class="nav-link" href="#proposal">Proposal</a></li>
+				<li class="nav-item"><a class="nav-link disabled" href="#deliverable">Deliverable</a></li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown08" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Team Members</a>
+					<div class="dropdown-menu" aria-labelledby="dropdown08">
+						<a class="dropdown-item" href="#bear">Product Owner: Walker Bear</a>
+						<a class="dropdown-item" href="#burton">Team Lead: Kelly Burton</a>
+						<a class="dropdown-item" href="#carlson">Team Member: Joshua Carlson</a>
+						<a class="dropdown-item" href="#haddon">Team Member: Maggie Haddon</a>
+						<a class="dropdown-item" href="#jefferies">Team Member: Cody Jefferies</a>
+						<a class="dropdown-item" href="#sakamoto">Team Member: Kenichi Sakamoto</a>
+						<a class="dropdown-item" href="#silva">Team Member: Kathryn Silva</a>
+						<a class="dropdown-item" href="#beyene">Team Member: Bruh Beyene</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<header>
+		<h5>GitAtom: a static-site generator for blogs</h5>
+	</header>
+	<main>
+		<h6 id="sponsor">Sponsors</h6>
+		<p><a href="http://web.cecs.pdx.edu/~bart/">Bart Massey</a>, <a href="https://keithp.com/">Keith Packard</a></p>
+		<h6 id="research">Research</h6>
+		<div class="pdf-container">
+			<embed id="research-item-1" class="pdf-item" src="https://storage.cloud.google.com/gitatomsite/Technologies_%20Atom%20File%20Format.pdf" type="application/pdf" width="100%" height="100%">
+			<embed id="research-item-2" class="pdf-item" src="https://storage.cloud.google.com/gitatomsite/Technologies_%20Githooks.pdf" type="application/pdf" width="100%" height="100%">
+			<embed id="research-item-3" class="pdf-item" src="https://storage.cloud.google.com/gitatomsite/Technologies_%20Pygit2.pdf" type="application/pdf" width="100%" height="100%">
+			<embed id="research-item-4" class="pdf-item" src="https://storage.cloud.google.com/gitatomsite/Technologies_%20cmark.pdf" type="application/pdf" width="100%" height="100%">
+			<embed id="research-item-5" class="pdf-item" src="https://storage.cloud.google.com/gitatomsite/Technologies_Python%20Jinja.pdf" type="application/pdf" width="100%" height="100%">
+			<embed id="research-item-6" class="pdf-item" src="https://storage.cloud.google.com/gitatomsite/Publishing%20Research.pdf" type="application/pdf" width="100%" height="100%">
+			<embed id="research-item-7" class="pdf-item" src="https://storage.cloud.google.com/gitatomsite/Deploy.pdf" type="application/pdf" width="100%" height="100%">
+			<embed id="research-item-8" class="pdf-item" src="storage.cloud.google.com/gitatomsite/Design%20diagram.pdf" type="application/pdf" width="100%" height="100%">
+		</div>
+		<h6 id="progress">Progress</h6>
+		<div id="commits">
+		</div>
+		<h6 id="proposal">Proposal</h6>
+		<div class="pdf-container">
+			<embed id="proposal-item-1" class="pdf-item" src="" type="application/pdf" width="100%" height="100%">
+		</div>
+		<h6 id="deliverable">Deliverable</h6>
+		<p>PyPI</p>
+		<h6>Team</h6>
+		<section id="members" class="member-container">
+			<div id="bear" class="member-item">bear...</div>
+			<div id="burton" class="member-item">burton...</div>
+			<div id="carlson" class="member-item">carlson...</div>
+			<div id="haddon" class="member-item">haddon...</div>
+			<div id="jefferies" class="member-item">jefferies...</div>
+			<div id="sakamoto" class="member-item">sakamoto...</div>
+			<div id="silva" class="member-item">silva...</div>
+			<div id="beyene" class="member-item">beyene...</div>
+		</section>
+	</main>
+
+	<footer>
+		<p><a href="https://github.com/bearwalker/GitAtom">GitHub</a>, PyPI</p>
+		<p>Portland State University MCECS CS Capstone Fall - Winter 2021</p>
+	</footer>
+
+	<script>
+		const url = `https://api.github.com/repos/bearwalker/GitAtom/commits`
+
+		fetch(url)
+		.then(response => response.json())
+		.then(data => {
+			let div = document.querySelector('#commits');
+			data.forEach(commit => {
+				let p = document.createElement('p');
+				let a = document.createElement('a');
+				a.textContent = commit['commit']['message'];
+				a.href = commit['html_url'];
+				p.append(a);
+				div.append(p);
+				console.log(commit['commit'])
+			});
+		})
+		.catch(error => console.error(error))
+
+		document.querySelector('#research-item-1').src = "https://storage.googleapis.com/gitatomsite/Technologies_%20Atom%20File%20Format.pdf"
+		document.querySelector('#research-item-2').src = "https://storage.googleapis.com/gitatomsite/Technologies_%20Githooks.pdf"
+		document.querySelector('#research-item-3').src = "https://storage.googleapis.com/gitatomsite/Technologies_%20Pygit2.pdf"
+		document.querySelector('#research-item-4').src = "https://storage.googleapis.com/gitatomsite/Technologies_%20cmark.pdf"
+		document.querySelector('#research-item-5').src = "https://storage.googleapis.com/gitatomsite/Technologies_Python%20Jinja.pdf"
+		document.querySelector('#research-item-6').src = "https://storage.googleapis.com/gitatomsite/Publishing%20Research.pdf"
+		document.querySelector('#research-item-7').src = "https://storage.googleapis.com/gitatomsite/Deploy.pdf"
+		document.querySelector('#research-item-8').src = "https://storage.googleapis.com/gitatomsite/Design%20diagram.pdf"
+		document.querySelector('#proposal-item-1').src = "https://storage.googleapis.com/gitatomsite/Capstone%20Midterm%20Report.pptx.pdf"
+	</script>
+</body>
+</html>
